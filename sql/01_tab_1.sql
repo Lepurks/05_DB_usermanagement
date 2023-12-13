@@ -1,5 +1,4 @@
-
-DROP TABLE IF EXISTS mydb.employees;
+DROP TABLE if EXISTS mydb.employees
 
 CREATE TABLE mydb.employees (
   id INT AUTO_INCREMENT PRIMARY KEY,
