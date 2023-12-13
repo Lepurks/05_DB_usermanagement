@@ -1,8 +1,9 @@
-CREATE TABLE Countries (
+CREATE TABLE mydb.Countries (
+    
   id INT NOT NULL AUTO_INCREMENT,
-  Country VARCHAR(100) NOT NULL,
-  Capital VARCHAR(100) NOT NULL,
-  Population INT NOT NULL,
+  country VARCHAR(100) NOT NULL,
+  capital VARCHAR(100) NOT NULL,
+  population INT NOT NULL,
   PRIMARY KEY (id)
 );
 
